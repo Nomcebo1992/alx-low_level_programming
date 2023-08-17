@@ -30,4 +30,4 @@ printf("Infinite loop avoided! \\o/\n");
 
 return (0);
 
-}<F11><F11><F11><F11><F11><F11>
+}<F11><F11>
