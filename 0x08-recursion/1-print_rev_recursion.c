@@ -2,15 +2,13 @@
 
 /**
 
- * _puts_recursion - function like puts();
+ * _print_rev_recursion - Prints a string in reverse.
 
- * @s: input
-
- * Return: Always 0 (Success)
+ * @s: The string to be printed.
 
  */
 
-void _puts_recursion(char *s)
+void _print_rev_recursion(char *s)
 
 {
 
@@ -18,15 +16,13 @@ void _puts_recursion(char *s)
 
         {
 
-                _putchar(*s);
+                _print_rev_recursion(s + 1);
 
-                _puts_recursion(s + 1);
+                _putchar(*s);
 
         }
 
-
-        else
-
-                _putchar('\n');
-
 }
+
+
+
